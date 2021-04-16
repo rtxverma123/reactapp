@@ -4,7 +4,7 @@ metadata:
     name: react-app-service
 spec:
   type: NodePort
-  seleector: 
+  selector: 
       app: myapp
   ports:
     - protocol: TCP
